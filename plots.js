@@ -125,7 +125,7 @@ function buildCharts(sample) {
       title: "<b>Bacterial Cultures Per Sample</b> <br> Explore the results from the samples analyzed.",
       xaxis: { title: "OTU ID" },
       height: 600,
-      width: '100%' 
+      width: '1000' 
     }; 
     
     // bubble 3. Use Plotly to plot the data with the layout.
