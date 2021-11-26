@@ -123,7 +123,7 @@ function buildCharts(sample) {
     // bubble 2. Create the layout for the bubble chart.
     var bubbleLayout = {
       title: "<b>Bacterial Cultures Per Sample</b> <br> Explore the results from the samples analyzed.",
-      xaxis: { title: {text: "OTU ID" },
+      xaxis: { title: "OTU ID" },
       height: 600,
       width: '100%' 
     }; 
@@ -164,7 +164,7 @@ function buildCharts(sample) {
 
     // gauge 6. Use Plotly to plot the gauge data and layout.
     Plotly.newPlot("gauge", gaugeData, gaugeLayout);
+    
   });
-}
 }
     
